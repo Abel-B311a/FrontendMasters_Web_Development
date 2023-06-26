@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.tomocalogo {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-block-end: 19.92px;
+  margin-block-start: 19.92px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-top: 25px;
+  margin-right: 7px;
+
+ 
+}
+
+h1 {
+color: rgb(251, 242, 192);
+display: inline-block;
+font-size: 24px;
+font-weight: 700;
+margin-block-end: 19.92px;
+margin-block-start: 19.92px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+
+}
+
+.headerbar {
+  background-color: rgb(67, 40, 28);
+  display: flex;
+  justify-content: center;
+  
+}
+
