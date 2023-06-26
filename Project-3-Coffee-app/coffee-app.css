@@ -40,3 +40,30 @@ margin-inline-start: 0px;
   
 }
 
+.header2 {
+  color: rgb(136, 90, 45);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-block-end: 13.28px;
+  margin-block-start: 13.28px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+}
+
+.itemno,.itemname,.itemcost {
+  font-size: 16px;
+  color: black;
+}
+
+.itemname,.itemcost{
+  font-weight: 600;
+}
+
+.itemtype {
+  color: rgb(176, 137, 104);
+  font-size: 14px;
+}
+
+
+
