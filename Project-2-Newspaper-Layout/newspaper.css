@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+
+
 .main-title {
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
+    text-align: center;
+    
 }
 
 .nav-btn {
@@ -13,12 +20,18 @@
 
 }
 
+.nav-btn:hover {
+    text-decoration: underline;
+}
+
+
 .head2 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 400;
     color: rgb(78, 77, 77);
+    text-align: center;
 }
 
 p {
@@ -27,6 +40,68 @@ p {
 
 img {
     width: 300px;
+    margin: auto;
+    display: block;
 }
+
+.nav-bar {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    
+}
+
+.title-grid {
+    display: block;
+    
+}
+
+.nav-grid {
+    border: 3px solid gray;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.arthicle-1 {
+    border: 3px solid gray;
+    padding: 10px;
+    grid-area: arth1;
+}
+
+.arthicle-2 {
+    border: 3px solid gray;
+    padding: 10px;
+    grid-area: arth2;
+}
+
+.arthicle-3 {
+    border: 3px solid gray;
+    padding: 10px;
+    grid-area: arth3;
+}
+
+.arthicle-4 {
+    border: 3px solid gray;
+    padding: 10px;
+    grid-area: arth4;
+}
+
+.arthicle-5 {
+    border: 3px solid gray;
+    padding: 10px;
+    grid-area: arth5;
+}
+
+.pagegrid {
+    display: grid;
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-template-areas:
+     "arth1 arth2 arth3"
+     "arth4 arth5 arth5";
+    
+}
+
+
 
 
