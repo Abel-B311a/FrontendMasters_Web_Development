@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 
 body {
@@ -50,70 +51,111 @@ margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
-.itemno,.itemname,.itemcost {
+.itemno {
   font-size: 16px;
   color: black;
+  grid-area: ino;
 }
 
-.itemname,.itemcost{
+.itemno2 {
+  font-size: 16px;
+  color: black;
+  grid-area: ino2;
+}
+
+.itemno3 {
+  font-size: 16px;
+  color: black;
+  grid-area: ino3;
+}
+
+.itemname {
+  font-size: 16px;
+  color: black;
   font-weight: 600;
+  grid-area: in;
+}
+
+.itemname2 {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  grid-area: in2;
+}
+
+.itemname3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  grid-area: in3;
+}
+
+.itemcost {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  grid-area: ic;
+}
+
+.itemcost2 {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  grid-area: ic2;
+}
+
+.itemcost3 {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  grid-area: ic3;
 }
 
 .itemtype {
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it;
-  margin: 0px;
+  
 }
 
 .itemtype2 {
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it2;
-  margin: 0px;
 }
 
-.itemcost{
-  grid-area: ic;
-  margin: 0px;
+.itemtype2B {
+  color: rgb(176, 137, 104);
+  font-size: 14px;
+  grid-area: it2B;
+  
 }
 
-.itemname{
-  grid-area: in;
-  margin: 0px;
-}
-
-.itemno {
-  grid-area: ino;
-  margin: 0px;
+.itemtype3 {
+  color: rgb(176, 137, 104);
+  font-size: 14px;
+  grid-area: it3;
 }
 
 .item1 {
-  display: grid;
-  grid-template-areas: 
-    "ino in .  ic"
-    ".   it .  .";
   border-bottom: 2px solid rgb(221, 184, 146);
-  justify-content: space-between;
+  
 }
 
 .item2 {
-  display: grid;
-  grid-template-areas: 
-    "ino in .  ic"
-    ".   it .  ."
-    ".   it2 .  .";
   border-bottom: 2px solid rgb(221, 184, 146);
-  justify-content: space-between;
+  
 }
 
 .item3 {
+ 
+    
+}
+
+.allitems {
   display: grid;
   grid-template-areas: 
-    "ino in .  ic"
-    ".   it .  .";
-    justify-content: space-between;
-    
+  ;
 }
 
 
