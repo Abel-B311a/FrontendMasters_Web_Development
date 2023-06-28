@@ -43,30 +43,34 @@ margin-inline-start: 0px;
 
 .header2 {
   color: rgb(136, 90, 45);
-  display: block;
+  display: inline-block;
   font-size: 16px;
   font-weight: 400;
-  margin-block-end: 13.28px;
-  margin-block-start: 13.28px;
-  margin-inline-end: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+  
+  
 }
 
 .itemno {
   font-size: 16px;
   color: black;
   grid-area: ino;
+  display: inline-block;
 }
 
 .itemno2 {
   font-size: 16px;
   color: black;
   grid-area: ino2;
+  display: inline-block;
 }
 
 .itemno3 {
   font-size: 16px;
   color: black;
   grid-area: ino3;
+  display: inline-block;
 }
 
 .itemname {
@@ -74,6 +78,7 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: in;
+  display: inline-block;
 }
 
 .itemname2 {
@@ -81,6 +86,7 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: in2;
+  display: inline-block;
 }
 
 .itemname3 {
@@ -88,6 +94,7 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: in3;
+  display: inline-block;
 }
 
 .itemcost {
@@ -95,6 +102,7 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: ic;
+  display: inline-block;
 }
 
 .itemcost2 {
@@ -102,6 +110,7 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: ic2;
+  display: inline-block;
 }
 
 .itemcost3 {
@@ -109,12 +118,17 @@ margin-inline-start: 0px;
   color: black;
   font-weight: 600;
   grid-area: ic3;
+  display: inline-block;
+  
 }
 
 .itemtype {
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  
   
 }
 
@@ -122,12 +136,15 @@ margin-inline-start: 0px;
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it2;
+  margin-top: 5px;
 }
 
 .itemtype2B {
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it2B;
+  margin-top: 5px;
+  margin-bottom: 20px;
   
 }
 
@@ -135,27 +152,190 @@ margin-inline-start: 0px;
   color: rgb(176, 137, 104);
   font-size: 14px;
   grid-area: it3;
+  margin-top: 5px;
 }
 
-.item1 {
-  border-bottom: 2px solid rgb(221, 184, 146);
-  
-}
-
-.item2 {
-  border-bottom: 2px solid rgb(221, 184, 146);
-  
-}
-
-.item3 {
- 
-    
-}
 
 .allitems {
   display: grid;
   grid-template-areas: 
-  ;
+  "ino in . . ic"
+  ". it . . ."
+  "ino2 in2 . . ic2"
+  ". it2 . . ."
+  ". it2B . . ."
+  "ino3 in3 . . ic3"
+  ". it3 . . .";
+  justify-content: space-between;
+  
+}
+
+.example-group {
+  position: relative;
+  
+}
+
+.example-group2 {
+  position: relative;
+  margin-top: 15px;
+  
+}
+
+.example-input {
+  border-color: rgb(136, 90, 45);
+  background-color: rgb(238, 225, 213);
+  border-style: solid;
+  padding: 8px;
+  border-radius: 100px;
+  width: 100%;
+
+}
+
+.example-input2 {
+  border-color: rgb(136, 90, 45);
+  background-color: rgb(238, 225, 213);
+  border-style: solid;
+  padding: 8px;
+  border-radius: 100px;
+  width: 50%;
+
+}
+
+.input-label {
+  background-color: rgb(238, 225, 213);
+  color: rgb(136, 90, 45);
+  font-size: 11px;
+  position: absolute;
+  left: 15px;
+  top: -7px;
+  padding: 0 2px;
+}
+
+.Box-1 {
+  background-color: #eee1d5;
+  padding: 15px;
+  grid-area: b1;
+  margin: 20px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  
+}
+
+.Box-2 {
+  background-color: #eee1d5;
+  padding: 15px;
+  grid-area: b2;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  
+}
+
+.Box-3 {
+  background-color: #eee1d5;
+  padding: 15px;
+  grid-area: b3;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  
+}
+
+.allbox {
+  display: grid;
+  grid-template-areas: 
+  "b1  b2"
+  "b1  b3";
+}
+
+.p1 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  grid-area: p1;
+}
+
+.p2 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  grid-area: p2;
+}
+
+.p3 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  font-weight: 600;
+  grid-area: p3;
+}
+
+.p4 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  grid-area: p4;
+}
+
+.p5 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  grid-area: p5;
+}
+
+.p6 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  font-weight: 600;
+  grid-area: p6;
+}
+
+.Box-4 {
+  background-color: #ffffff;
+  padding: 15px;
+  grid-area: b3;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  display: grid;
+  grid-template-areas: 
+  ". . p1 p4 . ."
+  ". . p2 p5 . ."
+  ". . p3 p6 . .";
+  justify-content: space-between;
+  
+}
+
+.p7 {
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  font-weight: 600;
+}
+
+
+
+.Box-5 {
+  background-color: #deb993;
+  padding: 0px;
+  margin: 20px;
+  margin-bottom: 0px;
+  border-radius: 150px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.Box-5:hover {
+  background-color: rgb(201, 157, 138);
+  color: white;
 }
 
 
