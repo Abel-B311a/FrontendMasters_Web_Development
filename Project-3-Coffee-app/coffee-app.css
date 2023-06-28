@@ -128,6 +128,8 @@ margin-inline-start: 0px;
   grid-area: it;
   margin-top: 5px;
   margin-bottom: 20px;
+  border-bottom: 2px solid #DDB892;
+  padding-bottom: 20px;
   
   
 }
@@ -145,6 +147,8 @@ margin-inline-start: 0px;
   grid-area: it2B;
   margin-top: 5px;
   margin-bottom: 20px;
+  border-bottom: 2px solid #DDB892;
+  padding-bottom: 20px;
   
 }
 
