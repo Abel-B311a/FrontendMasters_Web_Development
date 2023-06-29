@@ -27,8 +27,24 @@ if (BellasWeight === 52.5) { console.log(`Emmm okay`)}
 else if (BellasWeight > 52.5){console.log('The world is come to an end')}
 else {console.log(`Can a person go skinny than this?`)}
 
-let AmansBodyCount = 0;
+let AmansBodyCount = 0
 while (AmansBodyCount < 10) {
+  AmansBodyCount = AmansBodyCount +1
   console.log(`Aman's body count is ` + AmansBodyCount);
-  AmansBodyCount = AmansBodyCount +1}
-  console.log(`Aman reached double digits`)
+}
+  console.log(`Aman reached double digits`);
+
+let AmansBCount = 0
+for (let i=0; i<10; i++) {
+    AmansBCount++;
+    console.log(`Aman's body count is ` + AmansBCount)
+  }
+  console.log("Aman reached double digits")
+
+
+const character = `🐶`
+for (let i=0; i<10; i++) {
+  console.log(character)    
+}
+
+console.log(``.padStart(10,character));
