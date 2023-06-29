@@ -26,3 +26,9 @@ let BellasWeight = 51
 if (BellasWeight === 52.5) { console.log(`Emmm okay`)}
 else if (BellasWeight > 52.5){console.log('The world is come to an end')}
 else {console.log(`Can a person go skinny than this?`)}
+
+let AmansBodyCount = 0;
+while (AmansBodyCount < 10) {
+  console.log(`Aman's body count is ` + AmansBodyCount);
+  AmansBodyCount = AmansBodyCount +1}
+  console.log(`Aman reached double digits`)
