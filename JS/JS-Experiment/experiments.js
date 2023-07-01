@@ -96,3 +96,5 @@ function Fanchis(Fanmember, Chismeter) {
 
 }
 console.log(`${Fanmember} chisness level = ${Chismeter}`)
+
+console.log(`what is better`)
